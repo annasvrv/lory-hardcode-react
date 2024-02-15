@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* #root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
