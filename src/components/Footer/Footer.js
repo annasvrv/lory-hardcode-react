@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import homeIcon from "../images/Home-icon.svg";
 import addIcon from "../images/Add-icon.svg";
@@ -8,10 +8,6 @@ import settingIcon from "../images/Setting-icon.svg";
 import "./Footer.css";
 
 const Footer = () => {
-  const [isActive, setIsActive] = useState(false);
-  const handleClick = (e) => {
-    setIsActive((current) => !current);
-  };
   return (
     <footer className="Footer">
       <nav>

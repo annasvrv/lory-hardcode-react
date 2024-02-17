@@ -4,7 +4,6 @@ import { FaSearch } from "react-icons/fa";
 
 import iconProfile from "../images/icon-profile-LORY.svg";
 import calendar from "../images/calendar.svg";
-import searchIcon from "../images/search-icon.svg";
 import dots from "../images/menu-pages-dots.png";
 
 import "./StartPage.css";
