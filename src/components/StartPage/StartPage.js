@@ -13,9 +13,9 @@ const StartPage = () => {
     <div className="StartPage">
       <header className="Nav">
         <div className="iconProfile">
-          <a href="#">
+          <div>
             <img src={iconProfile} alt="profile icon" />
-          </a>
+          </div>
         </div>
         <form className="searchForm">
           <label htmlFor="search">Search Contact</label>
@@ -34,9 +34,9 @@ const StartPage = () => {
         </form>
         {/* <div className="contacts"></div> */}
         <div className="calendar">
-          <a href="#">
+          <div>
             <img src={calendar} alt="calendar" />
-          </a>
+          </div>
         </div>
       </header>
       <div className="menuPages">
