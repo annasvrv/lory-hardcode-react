@@ -13,10 +13,9 @@
 .searchForm {
   width: 100%;
   padding: 7px 14px;
-  border: none;
+  border: 1px solid #c6c6c6;
   border-radius: 12px;
-  background-color: #d9d9d9;
-  box-shadow: 0px 3px 3px rgb(190, 189, 189, 0.4);
+  background-color: transparent;
 }
 
 .searchForm label {
@@ -28,7 +27,9 @@
   border: none;
   padding: 3px;
   background-color: transparent;
-  color: #f3f3f3;
+  color: #c6c6c6;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .searchForm input {
@@ -38,8 +39,10 @@
 
 .searchForm input::placeholder {
   padding-left: 5px;
-  /* color: #fff; */
-  color: #f3f3f3;
+  color: #c6c6c6;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .iconProfile img {
@@ -47,6 +50,6 @@
 }
 
 .menuPages {
-  margin: 15px 0 20px;
+  margin: 20px 0;
   text-align: center;
 }

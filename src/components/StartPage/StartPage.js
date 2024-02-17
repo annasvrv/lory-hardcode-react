@@ -1,4 +1,5 @@
 import React from "react";
+import Main from "../Main/Main";
 import { FaSearch } from "react-icons/fa";
 
 import iconProfile from "../images/icon-profile-LORY.svg";
@@ -42,6 +43,7 @@ const StartPage = () => {
       <div className="menuPages">
         <img src={dots} alt="slide menu" />
       </div>
+      <Main />
     </div>
   );
 };

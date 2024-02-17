@@ -1,33 +1,37 @@
 .Footer {
+  position: fixed bottom;
+  /* padding: 2px 2px 38px; */
+  box-shadow: 0px -3px 7px rgb(190, 189, 189, 0.7);
+}
+
+.Footer nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  padding: 2px 2px 38px;
-  box-shadow: 0px -3px 7px rgb(190, 189, 189, 0.4);
+  padding: 2px 2px 30px;
 }
 
-.Home,
-.Messages,
-.Profile,
-.Settings,
-.CreateContact {
-  padding: 6px 10px;
+.footerNavIcon {
+  text-align: center;
+  padding: 6px 7px;
   font-size: 20px;
   line-height: 0px;
   color: rgb(0, 0, 0, 0.7);
   border-radius: 8px;
+  /* border: 0.5px solid; */
+}
+
+.footerNavIcon .footerImg {
+  height: 25px;
+}
+
+.text {
+  padding: 4px 0 8px;
+  font-size: 9px;
 }
 
 .active {
-  background-color: #a0e0ea;
+  border-top: 1px solid #df4b53;
+  /* background-color: #b6e7ee; */
+  border-radius: 0;
 }
-
-/* .CreateContact {
-  padding: 15px;
-  border: 0.5px solid rgb(190, 189, 189, 0.9);
-  border-radius: 100%;
-  font-size: 28px;
-  line-height: 0px;
-  color: #d9d9d9;
-} */

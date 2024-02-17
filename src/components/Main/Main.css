@@ -1,0 +1,96 @@
+.Main {
+  max-height: 520px;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.Main section {
+  margin: 0 0 13px;
+}
+
+h3 {
+  margin: 0 0 14px;
+  color: #14415f;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.todaysBDays h3 {
+  margin: 0 0 19px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.person {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 8px;
+  padding: 6px;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.person img {
+  width: 40px;
+}
+
+.todaysBDays .person {
+  background-color: #b6e7ee;
+}
+
+.upcoming .person {
+  background-color: #ffffff;
+  /* box-shadow: 0px 3px 4px rgb(190, 189, 189, 0.3); */
+}
+
+.personInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.personName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.personDate {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.deadline {
+  padding: 8px 15px;
+  border-radius: 12px;
+  /* background-color: #b6e7ee; */
+  text-align: center;
+}
+
+.deadlineSoon {
+  background-color: #b6e7ee;
+}
+
+.deadlineNext {
+  background-color: #c4c4c4;
+  color: #ffffff;
+}
+
+.deadlineNumber {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.deadlineText {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
