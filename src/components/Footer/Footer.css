@@ -1,6 +1,7 @@
 .Footer {
-  position: fixed bottom;
-  /* padding: 2px 2px 38px; */
+  position: sticky;
+  bottom: 0;
+  background-color: #f3f3f3;
   box-shadow: 0px -3px 7px rgb(190, 189, 189, 0.7);
 }
 

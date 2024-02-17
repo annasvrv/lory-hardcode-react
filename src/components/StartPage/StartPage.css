@@ -1,5 +1,8 @@
 .StartPage {
-  padding: 56px 15px 13px;
+  padding: 48px 15px 13px;
+  position: sticky;
+  top: 0;
+  background-color: #f3f3f3;
 }
 
 .Nav {

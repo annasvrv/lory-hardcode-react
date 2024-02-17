@@ -139,6 +139,134 @@ const Main = () => {
           </div>
         </card>
       </section>
+
+      <section className="upcoming">
+        <h3>травень 2024</h3>
+
+        <card className="person">
+          <img src={person2} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Олесь Гончар</div>
+              <div className="personDate">3 квітня 1918</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">46</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+
+        <card className="person">
+          <img src={person2} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Сергій Жадан</div>
+              <div className="personDate">23 серпня 1974</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">75</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+
+        <card className="person">
+          <img src={person2} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Іван Франко</div>
+              <div className="personDate">27 серпня 1856</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">80</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+
+        <card className="person">
+          <img src={person3} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Оксана Забужко</div>
+              <div className="personDate">19 вересня 1960</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">90</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+      </section>
+
+      <section className="upcoming">
+        <h3>червень 2024</h3>
+
+        <card className="person">
+          <img src={person2} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Олесь Гончар</div>
+              <div className="personDate">3 квітня 1918</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">46</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+
+        <card className="person">
+          <img src={person2} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Сергій Жадан</div>
+              <div className="personDate">23 серпня 1974</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">75</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+
+        <card className="person">
+          <img src={person2} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Іван Франко</div>
+              <div className="personDate">27 серпня 1856</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">80</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+
+        <card className="person">
+          <img src={person3} alt="person's name" />
+          <div className="personInfo">
+            <div className="personDescription">
+              <div className="personName">Оксана Забужко</div>
+              <div className="personDate">19 вересня 1960</div>
+            </div>
+
+            <div className="deadline deadlineNext">
+              <div className="deadlineNumber">90</div>
+              <div className="deadlineText">днів</div>
+            </div>
+          </div>
+        </card>
+      </section>
     </main>
   );
 };

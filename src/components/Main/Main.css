@@ -1,7 +1,8 @@
 .Main {
-  max-height: 520px;
+  padding: 0 15px 13px;
+  height: 100%;
   text-align: center;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .Main section {
@@ -46,7 +47,6 @@ h3 {
 
 .upcoming .person {
   background-color: #ffffff;
-  /* box-shadow: 0px 3px 4px rgb(190, 189, 189, 0.3); */
 }
 
 .personInfo {
@@ -71,7 +71,6 @@ h3 {
 .deadline {
   padding: 8px 15px;
   border-radius: 12px;
-  /* background-color: #b6e7ee; */
   text-align: center;
 }
 

@@ -1,9 +1,7 @@
 .App {
   width: 100%;
-  max-width: 900px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0px 0px 7px rgb(190, 189, 189);
+  flex-grow: 1;
 }
