@@ -9,7 +9,23 @@ body {
   /* display: flex; */
   /* justify-content: center; */
   min-height: 100vh;
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
+  background: #499ea5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #1b5a5f,
+    #499ea5,
+    #031f21
+    
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #031f21,
+    #1b5a5f,
+    #499ea5,
+    #1b5a5f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-size: 14px;
   line-height: 17px;
   font-family: "Montserrat", sans-serif;
