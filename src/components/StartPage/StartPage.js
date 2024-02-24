@@ -1,9 +1,9 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
+import SwipeMenu from "../SwipeMenu/SwipeMenu";
 
 import iconProfile from "../images/icon-profile-LORY.svg";
 import calendar from "../images/calendar.svg";
-import dots from "../images/menu-pages-dots.png";
 
 import "./StartPage.css";
 
@@ -38,10 +38,7 @@ const StartPage = () => {
           </div>
         </div>
       </header>
-      <div className="menuPages">
-        <img src={dots} alt="slide menu" />
-      </div>
-      
+      <SwipeMenu />
     </div>
   );
 };

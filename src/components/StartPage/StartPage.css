@@ -11,6 +11,7 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px;
+  /* background-color: #f3f3f3; */
 }
 
 .searchForm {
@@ -52,7 +53,4 @@
   width: 34px;
 }
 
-.menuPages {
-  margin: 20px 0;
-  text-align: center;
-}
+
